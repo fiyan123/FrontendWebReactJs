@@ -1,0 +1,57 @@
+.myBG {
+    height: 100vh;
+    background: url("https://images.bisnis-cdn.com/upload/img/Platinum_Cineplex.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    margin: -60px;
+}
+
+.trending {
+    height: auto;
+    background: url("https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/08/04/507939969.jpg");
+    background-size: cover;
+}
+
+.superhero {
+    height: auto;
+    background: url("https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/08/04/507939969.jpg");
+    background-size: cover;
+}
+
+.movieWrapper {
+
+}
+
+.movieImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images {
+    height: 400px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 2px black;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 1;
+}
