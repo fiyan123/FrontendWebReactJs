@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import './style/landingPage.css';
 import Trending from './components/Trending';
 import Superhero from './components/Superhero';
+import Action from './components/Action';
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
 		{/* SUperhero Section */}
 		<div className='superhero'>
 			<Superhero/>
+		</div>
+
+		{/* SUperhero Section */}
+		<div className='action'>
+			<Action/>
 		</div>
     </div>
   )

@@ -1,7 +1,8 @@
 import { Card, Col, Container, Row, Image, Button, Modal} from 'react-bootstrap';
 import React, { useState } from 'react';
 
-const Superhero = () => {
+
+const Action = () => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -12,7 +13,7 @@ const Superhero = () => {
             <Container>
                 <br/>
                 <br/>
-                    <h1 id='superhero'>SUPER HERO MOVIE</h1>
+                    <h1 id='action'>ACTION MOVIE</h1>
                 <br/>
                 <Row>
                     <Col md={4} className="movieWrapper">
@@ -133,4 +134,4 @@ const Superhero = () => {
     )
 }
 
-export default Superhero
+export default Action
